@@ -139,7 +139,7 @@ class _VK extends LoginAbstract
 							$member->name = $name;
 						}
 					}
-					$member->profilesync = json_encode( array( 'vk' => array( 'photo' => TRUE, 'status' => '' ) ) );
+					$member->profilesync = json_encode( array( 'VK' => array( 'photo' => TRUE, 'status' => '' ) ) );
 					$newMember = TRUE;
 				}
 			}
